@@ -1,0 +1,174 @@
+body {
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 20px;
+    max-width: 522px;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(239, 239, 239, 1);
+position: relative;
+    box-shadow: 6px 6px 10px 0px rgba(178, 178, 178, 0.25);
+    ;
+}
+
+.container-title {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    
+}
+
+.container-title::before {
+    display: flex;
+    margin-right: 20px;
+    position: absolute;
+    top: 52px;
+    left: 40px;
+    content: url(/images/check.svg);
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.good-name {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.23;
+}
+
+.good-name::after {
+    display: flex;
+    content: url(/images/cancel.svg);
+    position: absolute;
+    top: 115px;
+    right: 40px;
+    
+} 
+
+img {
+    width: 129px;
+    height: 150px;
+}
+
+.choice {
+    display: flex;
+    margin-bottom: 5px;
+    width: 294px;
+}
+
+.choice-color {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.var {
+    margin-right: 62px;
+}
+
+.quantity,
+.size, 
+.size-option {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 12px;
+    
+}
+
+.quantity {
+    margin-bottom: 5px;
+}
+
+.number {
+    margin-left: 44px;
+}
+
+.size-option {
+    margin-left: 54px;
+}
+
+.size {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.size-selection {
+    display: flex;
+}
+
+.nummer {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.total {
+    display: flex;
+    padding-top: 20px;
+    width: 305px;
+    justify-content: space-between;
+    
+}
+
+.red-price,
+.subtitle {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+.get-order {
+    width: 271px;
+    height: 50px;
+    color: #ffffff;
+    background: #DA1F39;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 49px;
+    border: none;
+    cursor: pointer;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.continue {
+    width: 201px;
+    height: 50px;
+    color: #000000;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 12px;
+    /* padding: 17px 33px; */
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    background: rgba(239, 239, 239, 1);
+   margin-right: 20px;
+}
+
+
+
+.purchase-buttons {
+    justify-content: center;
+    align-items: center;
+}
+
+.purchase {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 58px;
+}
